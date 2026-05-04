@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:opsz@17..18&family=Open+Sans:ital,wght@0,341;1,341&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.background{
+    background-image: url(5a226be91f6c14860bc5c08ea60dd2dd.jpg);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.section-content {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 100vh;
+}
+
+header{
+    background-color: #242424;
+}
+
+header .navbar {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .nav-logo .logo-text {
+    color: white;
+}
+
+.logo-text{
+    display: flex;
+    justify-content: baseline;
+}
+
+.navbar .nav-menu{
+    display: flex;
+    gap: 10px;
+
+}
+
+.navbar .nav-menu .nav-link{
+    padding: 10px 18px;
+    color: white;
+}
+.hero-section{
+    min-height: 100vh;
+}
+.hero-section .section-content{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vh;
+    color: white;
+}
+
+.hero-section .hero-details .title{
+    font-size: 2.5rem;
+    color: whitesmoke;
+}
+.hero-section .hero-details .subtitle{
+    margin-top: 8px;
+    font-size: 2.0;
+    font-weight: 500;
+}
+.hero-section .hero-details .description{
+    margin: 24px 0 40px;
+    font-size: medium;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subtitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.buttons{
+    text-align: center;
+}
+.hero-section .hero-details .button{
+    padding: 10px;
+    border-radius: 30px;
+    color: #ffff;
+    background:  rgb(182, 11, 11);;
+}
